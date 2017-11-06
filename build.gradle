@@ -1,7 +1,18 @@
 group 'org.team401'
 version '1.0'
 
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+    }
+}
+
 apply plugin: 'java'
+apply plugin: 'com.jfrog.bintray'
 
 sourceCompatibility = 1.8
 
