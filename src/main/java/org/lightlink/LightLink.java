@@ -1,9 +1,10 @@
-package org.snakeskin;
+package org.lightlink;
 
 import edu.wpi.first.wpilibj.I2C;
 
 public class LightLink {
     public class Color {
+        public static final int RED = 0x01;
         public static final int ORANGE = 0x02;
         public static final int YELLOW = 0x03;
         public static final int GREEN = 0x04;
