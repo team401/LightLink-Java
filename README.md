@@ -9,11 +9,11 @@ Setting up LightLink-Java with GradleRIO is easy
 
 First, add this line to the `repositories` block in your `build.gradle`
 
-`maven { url "http://dl.bintray.com/team401/SnakeSkin" }`
+`maven { url 'https://jitpack.io' }`
 
 Finally, add this line to the `dependencies` block in your `build.gradle`
 
-`compile(group: 'org.team401', name: 'LightLink-Java', version: '+')`
+`compile 'com.github.team401:LightLink-Java:1.1'`
 
 ## Hello World
 Assuming you have your hardware set up correctly, you are ready to test it!
