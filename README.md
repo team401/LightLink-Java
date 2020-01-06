@@ -13,7 +13,7 @@ First, add this line to the `repositories` block in your `build.gradle`
 
 Finally, add this line to the `dependencies` block in your `build.gradle`
 
-`compile 'com.github.team401:LightLink-Java:1.2'`
+`implementation 'com.github.team401:LightLink-Java:1.2'`
 
 ## Hello World
 Assuming you have your hardware set up correctly, you are ready to test it!
