@@ -13,14 +13,14 @@ First, add this line to the `repositories` block in your `build.gradle`
 
 Finally, add this line to the `dependencies` block in your `build.gradle`
 
-`compile 'com.github.team401:LightLink-Java:1.1'`
+`compile 'com.github.team401:LightLink-Java:1.2'`
 
 ## Hello World
 Assuming you have your hardware set up correctly, you are ready to test it!
 
 To initialize a LightLink object, put this line in your `Robot.java` file
 
-`LightLink led = new LightLink();`
+`LightLinkStrip led = new LightLinkStrip(0);`
 
 Now, in `teleopInit()`, put this line
 
