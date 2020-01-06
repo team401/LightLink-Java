@@ -1,5 +1,5 @@
 group 'org.team401'
-version '1.0'
+version '1.2'
 
 apply plugin: 'java'
 
@@ -9,14 +9,14 @@ repositories {
     mavenCentral()
 
     maven {
-        url "http://first.wpi.edu/FRC/roborio/maven/release"
+        url "https://frcmaven.wpi.edu/artifactory/release"
     }
 }
 
 dependencies {
-    implementation group: 'edu.wpi.first.wpilibj', name: 'wpilibj-java', version: '2018.4.1'
+    implementation group: 'edu.wpi.first.wpilibj', name: 'wpilibj-java', version: '2020.1.2'
 }
 
 wrapper {
-    gradleVersion = '4.10.2'
+    gradleVersion = '6.0.1'
 }
